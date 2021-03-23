@@ -11,11 +11,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//���� �������
 	int M;
 	int N;
+  // There you can see first commit to gorn branch made by Gorn.
 	printf("Please enter the number N: ");
 	scanf("%i", &N);
 	printf("Please enter the number of elements of the array: ");
 	scanf("%i", &M);
 	printf("Please enter the elements of the array: \n");
+  // Here we go. Second commit to gorn branch.
 	int *A = (int *)calloc(M, sizeof(int));
 	for (int i = 0; i < M; i++) 
 	{

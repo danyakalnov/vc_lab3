@@ -7,6 +7,9 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	printf("Started...");
+	printf("Started... 2");
+	printf("Rust is better");
 	//¬вод массива
 	int M;
 	int N;
