@@ -60,3 +60,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 //First commit to master
 //second commit to master
+
+//first commit to smirnov
+// second commit to smirnov
