@@ -20,7 +20,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	{
 		scanf("%i", A+i);
 	}
-	printf("Here is array you have entered: ");
+	printf("¬ведЄнный массив: ");
 	for (int u = 0; u < M; u++) 
 	{
 		if (u != M - 1) printf("%i, ", A[u]);
