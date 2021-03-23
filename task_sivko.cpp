@@ -57,5 +57,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	getch();
 	return 0;
 	//Commit to sivko #1
+	//Commit to sivko #2
 }
 
