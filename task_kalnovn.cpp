@@ -54,6 +54,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	else printf("Array doesn't contain the number N!");
 	free(A);
 	free(diffValues);
+	// Clean allocated memory
 	getch();
 	return 0;
 }
