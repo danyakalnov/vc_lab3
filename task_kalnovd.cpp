@@ -10,6 +10,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//¬вод массива
 	int M;
 	int N;
+        // My first commit to master branch
 	printf("Please enter the number N: ");
 	scanf("%i", &N);
 	printf("Please enter the number of elements of the array: ");
