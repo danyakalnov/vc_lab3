@@ -59,3 +59,4 @@ int _tmain(int argc, _TCHAR* argv[])
 }
 
 //first commit to smirnov
+// second commit to smirnov
