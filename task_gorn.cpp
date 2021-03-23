@@ -1,33 +1,37 @@
-// 205.cpp: определяет точку входа для консольного приложения.
-// Сосчитать число различных элементов в массиве
+// 205.cpp: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 #include "stdafx.h"
 #include <string>
 #include <conio.h>
 
+// This is where main starts. First commit to master by Gorn.
 int _tmain(int argc, _TCHAR* argv[])
 {
-	//Ввод массива
+	//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	int M;
 	int N;
+  // There you can see first commit to gorn branch made by Gorn.
 	printf("Please enter the number N: ");
 	scanf("%i", &N);
 	printf("Please enter the number of elements of the array: ");
 	scanf("%i", &M);
 	printf("Please enter the elements of the array: \n");
+  // Here we go. Second commit to gorn branch.
 	int *A = (int *)calloc(M, sizeof(int));
 	for (int i = 0; i < M; i++) 
 	{
 		scanf("%i", A+i);
 	}
+  // What about second commit to master branch by Gorn?
 	printf("Here is array you have entered: ");
 	for (int u = 0; u < M; u++) 
 	{
 		if (u != M - 1) printf("%i, ", A[u]);
 		else printf("%i", A[u]);
 	}
-	int *diffValues = (int *)calloc(M, sizeof(int)); //Массив, содержащий различные значения
-	//Сравниваем каждый элемент исходного массива с каждым элементом массива diffValues
+	int *diffValues = (int *)calloc(M, sizeof(int)); //пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ diffValues
 	int index = 0;
 	for (int i = 0; i < M; i++) 
 	{ 
@@ -43,7 +47,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			index++;
 		}
 	}
-	//Проверяем, содержится ли число N в массиве
+	//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ N пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	bool contain = false;
 	for (int c = 0; c < M; c++) 
 	{

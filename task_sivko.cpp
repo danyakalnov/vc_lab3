@@ -56,6 +56,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	free(diffValues);
 	getch();
 	return 0;
+	//Commit to sivko #1
+	//Commit to sivko #2
 }
 //Commit task in master #1
 //Commit task in master #2

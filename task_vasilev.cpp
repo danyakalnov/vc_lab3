@@ -7,6 +7,9 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	printf("Started...");
+	printf("Started... 2");
+	printf("Rust is better");
 	//¬вод массива
 	int M;
 	int N;
@@ -55,6 +58,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	free(A);
 	free(diffValues);
 	getch();
+	printf("Finished");
+	printf("Finished 2");
 	return 0;
 }
 
