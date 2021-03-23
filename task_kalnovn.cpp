@@ -55,6 +55,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	free(A);
 	free(diffValues);
 	// Clean allocated memory
+	// Second commit to master
 	getch();
 	return 0;
 }
