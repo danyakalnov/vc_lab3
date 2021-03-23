@@ -8,6 +8,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//Для первого коммита
+	//Для второго коммита
 	int M;
 	int N;
 	printf("Please enter the number N: ");
