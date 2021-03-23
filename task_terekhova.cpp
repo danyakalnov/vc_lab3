@@ -8,6 +8,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//Второй коммит
+	//Третий коммит
 	int M;
 	int N;
 	printf("Please enter the number N: ");
