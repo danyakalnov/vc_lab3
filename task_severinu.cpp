@@ -7,7 +7,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	//¬вод массива
+	//¬вод массива 2
 	int M;
 	int N;
 	printf("Please enter the number N: ");
@@ -20,6 +20,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	{
 		scanf("%i", A+i);
 	}
+	/// severinu 1 master
+	/// severinu 2 master
 	printf("Here is array you have entered: ");
 	for (int u = 0; u < M; u++) 
 	{
