@@ -55,7 +55,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	else printf("Array doesn't contain the number N!");
 	free(A);
 	free(diffValues);
-	getch();
+	getch(); // Second commit to master branch (step 3)
 	return 0;
 }
 
