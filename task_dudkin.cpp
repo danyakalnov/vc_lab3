@@ -5,6 +5,8 @@
 #include <string>
 #include <conio.h>
 
+// First commit to master branch
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//¬вод массива
