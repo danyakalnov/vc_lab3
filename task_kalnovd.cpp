@@ -55,6 +55,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	free(A);
 	free(diffValues);
 	getch();
-	return 0;
+	return 0; // First commit to local branch (step 2)
 }
 
