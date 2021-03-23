@@ -7,6 +7,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	// Second commit to kalnovn branch
 	//¬вод массива
 	int M;
 	int N;
